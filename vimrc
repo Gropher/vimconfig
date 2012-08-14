@@ -9,6 +9,12 @@ filetype on
 filetype plugin on
 filetype indent on
 
+"search options
+set hlsearch
+set ignorecase
+set smartcase
+set incsearch
+
 "enable pathogen
 call pathogen#infect()
 
@@ -18,8 +24,6 @@ syntax on
 "some key mapping
 map ,t :tabnext<cr>
 map ,f za
-map ,h :set hlsearch<cr>
-map ,nh :set nohlsearch<cr>
 cnoreabbrev to tabnew
 cnoreabbrev tn tabnext
 cnoreabbrev tp tabprevious
@@ -29,6 +33,9 @@ cnoreabbrev Q q
 cnoreabbrev wQ wq
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
+cnoreabbrev WQa wqa
+cnoreabbrev Wqa wqa
+cnoreabbrev wQa wqa
 
 
 "some stuff to get the mouse going in term
@@ -89,3 +96,21 @@ map <C-z> ,c<space>
 "improve autocomplete menu color
 highlight Pmenu ctermbg=238 gui=bold
 
+"syntastic enabled by default
+let g:syntastic_check_on_open=0
+let g:syntastic_auto_loc_list=1
+let g:syntastic_auto_jump=1
+map ,e :Errors<cr>
+map ,s :SyntasticCheck<cr>
+
+"rubycompletion
+autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+
+"supertab
+let g:SuperTabDefaultCompletionType = "context"
+
+"tagbar
+map ,l :TagbarToggle<cr>
