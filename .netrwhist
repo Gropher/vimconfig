@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/gropher/.vim'
-let g:netrw_dirhist_2='/home/gropher/NetbeansProjects/insque/lib/insque'
-let g:netrw_dirhist_3='/home/gropher/.vim'
+let g:netrw_dirhist_1='/home/gropher/NetbeansProjects/mediahosting/config/deploy'
+let g:netrw_dirhist_2='/home/gropher/NetbeansProjects/mediahosting/app/assets'
+let g:netrw_dirhist_3='/home/gropher/NetbeansProjects/mediahosting/config/locales'
