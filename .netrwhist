@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/gropher/NetbeansProjects/mediahosting/config/deploy'
-let g:netrw_dirhist_2='/home/gropher/NetbeansProjects/mediahosting/app/assets'
-let g:netrw_dirhist_3='/home/gropher/NetbeansProjects/mediahosting/config/locales'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/gropher/NetbeansProjects/puppetmodules/modules/monitoring_config/templates'
+let g:netrw_dirhist_2='/home/gropher/NetbeansProjects/insque/lib/insque'
+let g:netrw_dirhist_3='/home/gropher/NetbeansProjects/monitoring/config/deploy'
+let g:netrw_dirhist_4='/home/gropher/NetbeansProjects/messenger/config/deploy'
+let g:netrw_dirhist_5='/home/gropher/NetbeansProjects'
+let g:netrw_dirhist_6='/home/gropher/NetbeansProjects/devise_yauth_token/lib/generators/devise_yauth_token'
+let g:netrw_dirhist_7='/home/gropher/NetbeansProjects/yauth/app/views/account_mailer'
