@@ -52,8 +52,8 @@ cnoreabbrev wQa wqa
 set t_Co=256
 
 "folding settings
-set foldmethod=indent
-set nofoldenable
+"set foldmethod=indent
+"set nofoldenable
 
 "tab settings
 set tabstop=2
