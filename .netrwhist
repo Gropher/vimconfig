@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/gropher/NetbeansProjects/monitoring/config/deploy'
-let g:netrw_dirhist_2='/home/gropher/NetbeansProjects/puppetmodules/modules/user_web'
-let g:netrw_dirhist_3='/home/gropher/NetbeansProjects/puppetmodules/modules/streaming_config/templates'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/gropher/NetbeansProjects/insque/lib/insque'
+let g:netrw_dirhist_2='/home/gropher/NetbeansProjects/platform/config/deploy'
+let g:netrw_dirhist_3='/home/gropher/NetbeansProjects/virool-api'
+let g:netrw_dirhist_4='/home/gropher/NetbeansProjects/virool-api/target'
+let g:netrw_dirhist_5='/home/gropher/NetbeansProjects/virool-api/config/deploy'

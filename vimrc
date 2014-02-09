@@ -34,26 +34,16 @@ cnoreabbrev Q q
 cnoreabbrev wQ wq
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
+cnoreabbrev wA wa
+cnoreabbrev Wa wa
+cnoreabbrev WA wa
 cnoreabbrev WQa wqa
 cnoreabbrev Wqa wqa
 cnoreabbrev wQa wqa
 
 
-"some stuff to get the mouse going in term
-"set mouse=a
-"set ttymouse=xterm2
-"set clipboard=unnamedplus
-""nnoremap <C-c> y
-"vnoremap <C-c> y
-""nnoremap <C-v> p
-"vnoremap <C-v> p
-
 "tell the term has 256 colors
 set t_Co=256
-
-"folding settings
-"set foldmethod=indent
-"set nofoldenable
 
 "tab settings
 set tabstop=2
@@ -76,7 +66,6 @@ set statusline+=%*
 set history=100
 set ruler
 retab
-set pastetoggle=<F2>
 set wildmenu
 
 "open file where you left it
@@ -90,28 +79,11 @@ let mapleader = ","
 nnoremap <F1> :NERDTreeTabsToggle<cr>
 let NERDTreeMapActivateNode='<CR>i'
 let NERDTreeDirArrows=0
-
 "NERDCommenter settings
 map <C-z> ,c<space>
 
 "improve autocomplete menu color
 highlight Pmenu ctermbg=238 gui=bold
-
-"syntastic enabled by default
-"let g:syntastic_check_on_open=0
-"let g:syntastic_auto_loc_list=1
-"let g:syntastic_auto_jump=1
-"map ,e :Errors<cr>
-"map ,s :SyntasticCheck<cr>
-
-"rubycompletion
-"autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
-"autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
-"autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
-"autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
-
-"supertab
-"let g:SuperTabDefaultCompletionType = "context"
 
 "tagbar
 map ,l :TagbarToggle<cr>
